@@ -28,3 +28,9 @@ The system reduces P95 Latency from **50ms** (Disk) to **<1ms** (Cache).
 1. **Generate Data:**
    ```bash
    python3 generate_data.py
+2. **Run Full Demo:**
+   ```bash
+python3 experiments/final_demo.py
+3. **Run Evaluation Charts:**
+   ```bash
+python3 experiments/full_evaluation.py
