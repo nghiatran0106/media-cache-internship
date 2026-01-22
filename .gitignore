@@ -1,0 +1,18 @@
+# Bỏ qua thư mục dữ liệu giả lập (nặng)
+data/
+/tmp/
+
+# Bỏ qua file biên dịch Python
+__pycache__/
+*.pyc
+
+# Bỏ qua môi trường ảo (nếu có)
+venv/
+env/
+.env
+
+# Bỏ qua file hệ thống
+.DS_Store
+
+# Giữ lại thư mục results (để khoe biểu đồ) nhưng bỏ qua file tạm nếu có
+results/*.tmp
